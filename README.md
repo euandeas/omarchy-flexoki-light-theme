@@ -21,5 +21,5 @@ omarchy-theme-install https://github.com/euandeas/omarchy-flexoki-light-theme.gi
 
 ## Preview
 
-![preview image]()
-![preview image 2]()
+![preview image](https://i.imgur.com/diaiVuO.jpeg)
+![preview image 2](https://i.imgur.com/mbo0GoS.png)
