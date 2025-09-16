@@ -21,36 +21,6 @@ Flexoki Dark: [github.com/euandeas/omarchy-flexoki-dark-theme](https://github.co
 omarchy-theme-install https://github.com/euandeas/omarchy-flexoki-light-theme.git
 ```
 
-## Changing Tint Colors
-
-This theme includes a script to customize the accent/tint color used throughout the interface.
-
-### Usage
-
-```bash
-# Change to a specific color
-./change-tint.sh red
-./change-tint.sh purple
-./change-tint.sh green
-
-# List available colors
-./change-tint.sh --list
-
-# Reset to original blue
-./change-tint.sh --reset
-```
-
-### Available Colors
-
-- **red** 
-- **orange** 
-- **yellow** 
-- **green** 
-- **cyan** 
-- **blue** 
-- **purple** 
-- **magenta**
-
 ## Preview
 
 ![preview image](https://i.imgur.com/TEAxL1b.png)
