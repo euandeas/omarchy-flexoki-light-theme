@@ -1,110 +1,48 @@
-/* Omarchy Theme for Obsidian — Flexoki Light */
+/*
+Flexoki
+MIT License
+Copyright (c) 2023 Steph Ango
+https://stephango.com/flexoki
 
+Omarchy Flexoki Light: light palette forced on both Obsidian
+appearance modes so the theme does not follow system/app dark mode.
+Source values from kepano/flexoki-obsidian .theme-light.
+*/
 .theme-dark, .theme-light {
-  /* Base: bg, bg-2, ui, tx */
-  --background-primary: #FFFCF0;
-  --background-primary-alt: #FFFCF0;
-  --background-secondary: #F2F0E5;
-  --background-secondary-alt: #F2F0E5;
-  --text-normal: #100F0F;
+  --color-red-rgb: 175, 48, 41;
+  --color-orange-rgb: 188, 82, 21;
+  --color-yellow-rgb: 173, 131, 1;
+  --color-green-rgb: 102, 128, 11;
+  --color-cyan-rgb: 36, 131, 123;
+  --color-blue-rgb: 32, 94, 166;
+  --color-purple-rgb: 94, 64, 157;
+  --color-pink-rgb: 160, 47, 111;
 
-  /* Selection: ui-3 */
-  --text-selection: #CECDC3;
+  --color-red: #AF3029;
+  --color-orange: #BC5215;
+  --color-yellow: #AD8301;
+  --color-green: #66800B;
+  --color-cyan: #24837B;
+  --color-blue: #205EA6;
+  --color-purple: #5E409D;
+  --color-pink: #A02F6F;
 
-  /* Borders: ui, ui-2, ui-3 */
-  --background-modifier-border: #E6E4D9;
-  --background-modifier-border-hover: #DAD8CE;
-  --background-modifier-hover: #E6E4D9;
-  --background-modifier-active-hover: #DAD8CE;
+  --accent-h: 175;
+  --accent-s: 57%;
+  --accent-l: 33%;
 
-  /* Muted text: tx-2, tx-3 */
-  --text-muted: #6F6E69;
-  --text-faint: #B7B5AC;
+  --color-base-00: #FFFCF0;
+  --color-base-05: #FFFCF0;
+  --color-base-10: #F2F0E5;
+  --color-base-20: #F2F0E5;
+  --color-base-25: #E6E4D9;
 
-  /* Links and active states: cy */
-  --text-link: #24837B;
-  --text-accent: #24837B;
-  --text-accent-hover: #1C6C66;
-  --interactive-accent: #24837B;
-  --interactive-accent-hover: #1C6C66;
+  --color-base-30: #E6E4D9;
+  --color-base-35: #DAD8CE;
+  --color-base-40: #CECDC3;
 
-  /* Semantic heading colors */
-  --text-title-h1: #AF3029;
-  --text-title-h2: #66800B;
-  --text-title-h3: #AD8301;
-  --text-title-h4: #205EA6;
-  --text-title-h5: #A02F6F;
-  --text-title-h6: #24837B;
-
-  /* Code and inline syntax: cy */
-  --code-normal: #24837B;
-
-  /* Status: re, gr */
-  --text-error: #AF3029;
-  --text-error-hover: #942822;
-  --text-success: #66800B;
-
-  /* Tags: ui surface + cy text */
-  --tag-color: #24837B;
-  --tag-background: #E6E4D9;
-  --tag-color-hover: #1C6C66;
-  --tag-background-hover: #DAD8CE;
-
-  /* Graph */
-  --graph-line: #B7B5AC;
-  --graph-node: #205EA6;
-  --graph-node-focused: #24837B;
-  --graph-node-tag: #24837B;
-  --graph-node-attachment: #66800B;
-}
-
-/* Headers */
-.cm-header-1, .markdown-rendered h1 { color: var(--text-title-h1); }
-.cm-header-2, .markdown-rendered h2 { color: var(--text-title-h2); }
-.cm-header-3, .markdown-rendered h3 { color: var(--text-title-h3); }
-.cm-header-4, .markdown-rendered h4 { color: var(--text-title-h4); }
-.cm-header-5, .markdown-rendered h5 { color: var(--text-title-h5); }
-.cm-header-6, .markdown-rendered h6 { color: var(--text-title-h6); }
-
-/* Code blocks */
-.markdown-rendered code {
-  color: #24837B;
-}
-
-/* Syntax highlighting */
-.cm-s-obsidian span.cm-comment { color: #B7B5AC; }
-.cm-s-obsidian span.cm-operator { color: #6F6E69; }
-.cm-s-obsidian span.cm-keyword { color: #66800B; }
-.cm-s-obsidian span.cm-string { color: #24837B; }
-.cm-s-obsidian span.cm-number { color: #5E409D; }
-.cm-s-obsidian span.cm-def { color: #BC5215; }
-.cm-s-obsidian span.cm-variable { color: #205EA6; }
-.cm-s-obsidian span.cm-variable-2 { color: #205EA6; }
-.cm-s-obsidian span.cm-property { color: #205EA6; }
-.cm-s-obsidian span.cm-attribute { color: #205EA6; }
-.cm-s-obsidian span.cm-tag { color: #66800B; }
-.cm-s-obsidian span.cm-error { color: #AF3029; }
-.cm-s-obsidian span.cm-meta { color: #A02F6F; }
-
-/* Links */
-.markdown-rendered a {
-  color: var(--text-link);
-}
-
-/* Blockquotes */
-.markdown-rendered blockquote {
-  border-left-color: #E6E4D9;
-}
-
-/* Active elements */
-.workspace-leaf.mod-active .workspace-leaf-header-title {
-  color: var(--interactive-accent);
-}
-
-.nav-file-title.is-active {
-  color: var(--interactive-accent);
-}
-
-.search-result-file-title {
-  color: var(--interactive-accent);
+  --color-base-50: #B7B5AC;
+  --color-base-60: #878580;
+  --color-base-70: #6F6E69;
+  --color-base-100: #100F0F;
 }
